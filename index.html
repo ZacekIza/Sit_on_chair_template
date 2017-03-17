@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,7 +9,8 @@
   <body>
      <header>
        <div class="container">
-         <div class="logo"><span id="logo">SIT <span class="diffColorText">ON</span><span class="letter">CHAIR</div></div>
+         <div class="logo"><span id="logo">SIT <span class="diffColorText">ON</span><span class="letter">CHAIR</span>
+         </div>
          <div class="menu">
            <ul>
              <li>O FIRMIE</li>
@@ -20,6 +22,7 @@
      </header>
      <section id="bigChair">
        <div class="container">
+
          <div class="arrow">
           <p> < </p>
          </div>
@@ -28,15 +31,19 @@
          </div>
          <div class="shortInfo">
             <p>
-              <h1>SIT <span class="diffColorText">ON </span>OUR<span class="diffColorText"> CHAIR</span></h1>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis ante ut sapien luctus, sit amet hendrerit felis condimentum. Praesent in erat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis massa vel vulputate congue. Nam lacinia ligula sed vestibulum imperdiet.
+              <h1>SIT <span class="diffColorText">ON </span>OUR
+                <span class="diffColorText"> CHAIR</span></h1>
             </p>
-            <div></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis ante ut sapien luctus, sit amet hendrerit felis condimentum. Praesent in erat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis massa vel vulputate congue. Nam lacinia ligula sed vestibulum imperdiet.
+              </p>
+            </p>
+            <div class="seeMore"><p id="pushForMore">ZOBACZ WIĘCEJ</p></div>
          </div>
          <div class="arrow">
           <p> > </p>
           </div>
-       </div>
+        </div>
      </section>
      <section id="pictures">
        <div class="container">
@@ -48,10 +55,13 @@
            <img id="bobo"src='images/box2_img.jpg'>
          </div>
          <div class="picNo">
-           <p>
 
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis ante ut sapien luctus, sit amet hendrerit felis condimentum. Praesent in erat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis massa vel vulputate congue. Nam lacinia ligula sed vestibulum imperdiet. Mauris non arcu eu ipsum luctus placerat aliquam sit amet felis. Praesent nec purus velit.
-
+            <h2>Finds all inputs</h2>
+            <div class="greenline"></div>
+            <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis ante ut sapien luctus, sit amet hendrerit felis condimentum. Praesent in erat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p class="textDown">
              Quisque eget tortor nisi. Donec egestas, felis ac eleifend luctus, erat nisl mollis elit, sit amet fringilla ligula augue vitae libero. Vestibulum rhoncus erat elementum, ultricies erat nec, pellentesque risus.
            </p>
          </div>
@@ -90,3 +100,104 @@
 
   </body>
 </html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sit on our chair</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="headerLogo">
+        SIT <span>ON</span>CHAIR
+        </div>
+      <div class="headerMenu">
+        <ul>
+          <li>O FIRMIE</li>
+          <li>GALERIA</li>
+          <li>KONTAKT</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="welcome">
+    <div class="container">
+        <div class="blackChair">
+        <img src="images/black_chair.png" alt="black chair">
+        </div>
+        <div class="welcomeText">
+          <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus tincidunt massa, vel auctor purus fermentum vitae. Etiam lobortis egestas egestas. Aliquam tempus quam ex, laoreet rhoncus felis venenatis non. Curabitur tincidunt laoreet nisl id tempus.</p>
+          <input type="submit" id="buttonSeeMore" value="ZOBACZ WIĘCEJ"/>
+        </div>
+    </div>
+  </section>
+
+  <section class="galery">
+    <div class="container">
+      <div class="box boxOne">
+      </div>
+      <div class="box boxTwo">
+      </div>
+      <div class="box boxThree">
+        <p><b>Finds all inputs</b></p>
+        <p>Finds all inputs that are not checked and highlghts the next sibling span. Notice there is no change when cliking the checkboxes since no click events have been linked. </p>
+        <p>Notice there is no change when cliking the checkboxes since no click events have been made.</p>
+      </div>
+    </div>
+
+  </section>
+  <section class="priceList">
+    <div class="container">
+        <div class="cennik">CENNIK</div>
+        <div class="greenline"></div>
+    </div>
+  </section>
+
+  <section class="contactUs">
+    <div class="container">
+      <div class="contactFormContainer">
+        <div class="contact"><p>KONTAKT<p></div>
+        <div class="contactForm">
+          <input id="name" type="text" placeholder="Imię"/>
+          <br><br>
+          <input id="email" type="email" placeholder="email"/>
+          <br><br>
+          <textarea id="message" cols="50"rows="5" placeholder="Wiadomość"></textarea>
+        </div>
+      </div>
+        <div class="sendButtonSection">
+        <img src="images/red_chair.png" id="redChair" alt="red chair">
+        <div class="agreement">
+          <img src="images/form_ok.jpg" id="checkbox" alt="checkbox">
+          <p class="agreementOk">Zgadzam się na przetwarzanie danych osobowych.</p>
+        </div>
+        <input type="submit" id="send" value="WYŚLIJ"/>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="copyrights">Copyright 2014 | All Rights Reserved. - Sit On Chair
+      </div>
+      <div class="socialMedia">
+        <img src="images/flickr.png" alt="flickr">
+        <img src="images/pinterest.png" alt="pinterest">
+        <img src="images/twitter.png" alt="twitter">
+        <img src="images/vimeo.png" alt="vimeo">
+      </div>
+      <div class="footerLogo">
+      <p>SIT <b>ON</b> CHAIR</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+-->
