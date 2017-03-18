@@ -239,6 +239,7 @@ header .container*{
   display:inline-block;
   float: left;
   width: 33.3%;
+	position: relative;
 }
 .picNo {
   display: inline-block;
@@ -270,4 +271,25 @@ header .container*{
  height: 10px;
  background-color: rgb(39, 199, 171);
  margin-left: 0;
+}
+.greyLine {
+	height: 62px;
+	width: 100%;
+	background-color: rgba(244, 247, 251, 0.5);
+	position: absolute;
+	top: 150px;
+}
+.imageTEXT {
+	font-weight: 600;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.imageGreenLine {
+	width: 140px;
+	height: 10px;
+	background-color: rgb(39, 199, 171);
+	margin-left: 10px;
+}
+.picNo:after {
+	clear: both;
 }
