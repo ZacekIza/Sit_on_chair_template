@@ -293,3 +293,27 @@ header .container*{
 .picNo:after {
 	clear: both;
 }
+#price {
+	margin-top: 40px;
+	background-color: rgb(229, 229, 229);
+}
+.greenLineLong {
+	background-color: rgb(39, 199, 171);
+	width: 330px;
+	height: 7px;
+	margin-left: 0;
+	margin-top: 5px;
+}
+.priceBlocksOne {
+	width: 31%;
+	height: 660px;
+	border: 2px solid rgb(214, 214, 214);
+	margin-left: 0;
+	margin-top: 75px;
+	background-color: rgb(238, 238, 238);
+
+}
+.basicPlan {
+	color: rgb(39, 199, 171);
+	text-align: center;
+}
