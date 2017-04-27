@@ -473,3 +473,111 @@ sup {
 .goundWhite {
 	background-color: white;
 }
+.textWhite {
+	color: white;
+}
+.textForm {
+	font-size: 25px;
+	padding-left: 10px;
+	height: 45px;
+	margin-top: 25px;
+	width: 590px;
+	border: 1px solid rgb(39, 199, 171);
+	margin-bottom: 15px;
+	color: rgb(192, 192, 192);
+	padding-bottom: 20px;
+}
+.textFormTwo {
+	color: rgb(192, 192, 192);
+	font-size: 25px;
+	padding-left: 10px;
+	height: 45px;
+	margin-bottom: 15px;
+	width: 590px;
+	border: 1px solid rgb(39, 199, 171);
+	padding-bottom: 20px;
+}
+.msgForm {
+	font-size: 25px;
+	padding-left: 10px;
+	width: 590px;
+	border: 1px solid rgb(39, 199, 171);
+	height: 45px;
+	color: rgb(192, 192, 192);
+	padding-bottom: 120px;
+}
+.redChairSection {
+	width: 325px;
+	float: left;
+	margin-left: 95px;
+	display: inline-block;
+}
+.contact {
+	display: inline-block;
+}
+form {
+	float: left;
+}
+.redChairPic {
+	float: left;
+}
+.checkBox {
+	border: 1px solid rgb(39, 199, 171);
+	margin-top: 25px;
+	float: left;
+}
+.checkBoxSection {
+	display: inline-block;
+}
+.checkBoxText {
+	color: rgb(192, 192, 192);
+	margin-top: 25px;
+	margin-left: 60px;
+}
+.send {
+	background-color: rgb(39, 199, 171);
+	color: white;
+	border: 1px solid rgb(39, 199, 171);
+	border-radius: 12%;
+	font-weight: bold;
+	text-align: center;
+	height: 45px;
+	font-size: 29px;
+	margin-top: 15px;
+	padding-top: 13px;
+}
+.textFooter {
+	color: rgb(192, 192, 192);
+}
+#ending {
+	margin-top: 40px;
+	display: inline-block;
+}
+.endingImgs {
+	width: 325px;
+	float: left;
+	margin-left: 315px;
+}
+.fullImgs {
+	display: inline-block;
+	float: left;
+}
+.textFooter {
+	float: left;
+	margin-top: 15px;
+}
+.endingText {
+	color: rgb(192, 192, 192);
+	float: left;
+	margin-left: 3px;
+}
+.endingTextPart {
+	font-weight: bold;
+	color: rgb(192, 192, 192);
+	float: left;
+	margin-left: 3px;
+}
+.endingTextDiv {
+  margin-left: 220px;
+	margin-top: 15px;
+}
